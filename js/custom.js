@@ -16,13 +16,6 @@
     Navbar Bar
     ................................................. 
 	
-	$('.navbar-nav .nav-link').on('click', function() {
-		var toggle = $('.navbar-toggler').is(':visible');
-		if (toggle) {
-			$('.navbar-collapse').collapse('hide');
-		}
-	});
-	
 	 ..............................................
     Fixed Menu
     ................................................. */
@@ -35,11 +28,6 @@
 		}
 	});
 	
-	// Closes the Responsive Menu on Menu Item Click
-$('.navbar-collapse ul li a:not(.dropdown-toggle)').click(function() {
-    $('.navbar-toggle:visible').click();
-});
-
 	/* ..............................................
     Gallery
     ................................................. */
@@ -57,9 +45,7 @@ $('.navbar-collapse ul li a:not(.dropdown-toggle)').click(function() {
 			},
 			image: {
 				tError: '<a href="%url%">The image #%curr%</a> could not be loaded.',
-				/*titleSrc: function(item) {
-					return item.el.attr('title') + '<small>by Marsel Van Oosten</small>';
-				} */
+				
 			}
 		});
 	});
