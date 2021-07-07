@@ -8,14 +8,16 @@
     <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
  
      <!-- Site Metas -->
-    <title>The Real Wedding - Responsive OnePage HTML5 Template</title>  
+    <title>Erie Pop Up Wedding Events - Erie, PA</title>  
     <meta name="keywords" content="">
     <meta name="description" content="">
     <meta name="author" content="">
 
     <!-- Site Icons -->
-    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
-    <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+    <link rel="shortcut icon" href="images/uploads/favicon_io/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" sizes="180x180" href="images/uploads/favicon_io/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="images/uploads/favicon_io/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="images/uploads/favicon_io/favicon-16x16.png">
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
@@ -56,13 +58,24 @@
 				</button>
                 <div class="collapse navbar-collapse justify-content-end" id="navbar-wd">
                     <ul class="navbar-nav">
-                        <li><a class="nav-link active" href="#home">Home</a></li>
-                        <li><a class="nav-link" href="#about">About Us</a></li>
-                        <li><a class="nav-link" href="#story">Story</a></li>
-                        <li><a class="nav-link" href="#family">Family</a></li>
-                        <li><a class="nav-link" href="#gallery">Gallery</a></li>
-                        <li><a class="nav-link" href="#events">Events</a></li>
-						<li><a class="nav-link" href="#contact">Contact</a></li>
+                        <li><a class="nav-link active" href="index.html">Home</a></li>
+                        <li><a class="nav-link" href="">About</a></li>
+                        <li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle" href="" id="sub-nav7" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+								Pop Ups
+							</a>
+							<ul class="dropdown-menu" aria-labelledby="sub-nav7">
+								<li><a class="dropdown-item" href="contactus1.html">What is a Pop Up?</a></li>
+								<li><a class="dropdown-item" href="contactus1.html">Pop Up Wedding Styles & Schedules</a></li>
+								<li><a class="dropdown-item" href="2021.html">2021 Dates</a></li>
+								<li><a class="dropdown-item" href="2022.html">2022 Dates</a></li>
+								<li><a class="dropdown-item" href="contactus3.html">FAQ</a></li> 
+							</ul>
+						</li>
+                        <li><a class="nav-link" href="">Weddings</a></li>
+                        <li><a class="nav-link" href="">Vendors</a></li>
+                        <li><a class="nav-link" href=""></a></li>
+						<li><a class="nav-link" href="contact.html">Contact</a></li>
                     </ul>
                 </div>
             </div>
@@ -122,7 +135,7 @@
 				<div class="row">
 					<div class="col-lg-12">
 						<div class="title-box">
-							<h2>Cyndi <span>&</span> Robert</h2>
+							<h2>Cyndi Treiber <br><font size="6px">Founder, Co Owner & Event Artist</font></h2>
 						</div>
 					</div>
 				</div>
@@ -441,78 +454,6 @@
 		</div>
 	</div>
 	<!-- End Events -->
-	
-	<!-- Start Contact -->
-	<div id="contact" class="contact-box">
-		<div class="container">
-			<div class="row">
-				<div class="col-lg-12">
-					<div class="title-box">
-						<h2>Contact Us</h2>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
-					</div>
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-lg-12 col-sm-12 col-xs-12">
-				  <div class="contact-block">
-					<form id="contactForm">
-					  <div class="row">
-						<div class="col-md-12">
-							<div class="form-group">
-								<input type="text" class="form-control" id="name" name="name" placeholder="Your Name" required data-error="Please enter your name">
-								<div class="help-block with-errors"></div>
-							</div>                                 
-						</div>
-						<div class="col-md-12">
-							<div class="form-group">
-								<input type="text" placeholder="Your Email" id="email" class="form-control" name="name" required data-error="Please enter your email">
-								<div class="help-block with-errors"></div>
-							</div> 
-						</div>
-						<div class="col-md-12">
-							<div class="form-group">
-								<select class="custom-select d-block form-control" id="guest" required data-error="Please select an item in the list.">
-								  <option disabled selected>Number Of Guests*</option>
-								  <option value="1">1</option>
-								  <option value="2">2</option>
-								  <option value="3">3</option>
-								  <option value="4">4</option>
-								  <option value="5">5</option>
-								</select>
-								<div class="help-block with-errors"></div>
-							</div> 
-						</div>
-						<div class="col-md-12">
-							<div class="form-group">
-								<select class="custom-select d-block form-control" id="event" required data-error="Please select an item in the list.">
-								  <option disabled selected>I Am Attending*</option>
-								  <option value="1">All events</option>
-								  <option value="2">Wedding ceremony</option>
-								  <option value="3">Reception party</option>
-								</select>
-								<div class="help-block with-errors"></div>
-							</div> 
-						</div>
-						<div class="col-md-12">
-							<div class="form-group"> 
-								<textarea class="form-control" id="message" placeholder="Your Message" rows="8" data-error="Write your message" required></textarea>
-								<div class="help-block with-errors"></div>
-							</div>
-							<div class="submit-button text-center">
-								<button class="btn btn-common" id="submit" type="submit">Send Message</button>
-								<div id="msgSubmit" class="h3 text-center hidden"></div> 
-								<div class="clearfix"></div> 
-							</div>
-						</div>
-					  </div>            
-					</form>
-				  </div>
-				</div>
-			</div>
-		</div>
-	</div>
-	<!-- End Contact -->
 	
 	<!-- Start Footer -->
 	<footer class="footer-box">
